@@ -93,6 +93,8 @@ let &path.="/usr/include,/usr/local/include"
 let g:ycm_global_ycm_extra_conf = "$HOME/.ycm_extra_conf.py"
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_python_binary_path = '/usr/bin/python3'
+let g:ycm_server_python_interpreter = '/usr/bin/python3'
+let g:ycm_path_to_python_interpreter = '/usr/bin/python3'
 let g:ycm_min_num_of_chars_for_completion = 3
 let g:ycm_auto_trigger = 1
 let g:ycm_seed_identifiers_with_syntax=1
@@ -114,6 +116,10 @@ let g:airline#extensions#tabline#enabled = 1
 inoremap jk <esc>
 inoremap kj <esc>
 nnoremap . :
+nnoremap <F2> :set invpaste paste?<CR>
+	set pastetoggle=<F2>
+	set showmode
+
 
 "Various mapping
 map <F8> :TagbarToggle<CR>

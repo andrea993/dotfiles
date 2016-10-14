@@ -15,11 +15,15 @@ Then start vim and write:
 At the end you need to restart vim to finish installation.
 
 ###YOU COMPLETE ME CONFIGURATION
-To use ycm you need to go in the directory `~/.vim/bundle/YouCompleteMe` and run `./install.py --all` (make sure you are using python2).
+Make sure you are using python3
+
+To use ycm you need to go in the directory `~/.vim/bundle/YouCompleteMe` and run `./install.py --all`.
+
 Restart vim, now you should use the completion.
 
 ####YCM UNICODE CHARACTERS CAUSE ERRORS
 After installing ycm in vim try `:setf git` if you get variuos errors you need to use an other branch of ycm.
+
 TO FIX:
 ```
 cd ~/.vim/bundle
@@ -33,7 +37,7 @@ git submodule update --init --recursive
 ####ENABLE CLANG COMPLETION
 Copy the file `.ycm_extra_conf.py` in your home
 ```
-cp `.ycm_extra_conf.py` $HOME
+cp .ycm_extra_conf.py $HOME
 ```
-Make sure you have the `clang package installed
+Make sure you have the `clang` package installed
 
