@@ -1,0 +1,337 @@
+local/4kyoutubetomp3 3.0.2.1677-2
+community/aircrack-ng 1.2rc4-2
+local/airmode-git 20160808-1
+extra/alsa-plugins 1.1.1-1
+extra/alsa-utils 1.1.2-1
+local/android-studio 2.2.1-1
+community/android-tools 7.0.0_r1-1
+community/android-udev 20160902-1
+community/archey3 0.5-4
+local/arduino 1:1.6.12-1
+local/artwork-maia 23235fa-1
+extra/audacity 2.1.2-3
+core/autoconf 2.69-4 (base-devel)
+core/automake 1.15-2 (base-devel)
+core/bash 4.3.046-1 (base)
+local/bear 2.2.0-1
+core/binutils 2.27-1 (base-devel)
+core/bison 3.0.4-2 (base-devel)
+extra/brasero 3.12.1-2 (gnome-extra)
+extra/breeze-kde4 5.8.0-1
+local/brother-dcp1610w 3.0.1-1
+local/brscan4 0.4.4_1-1
+core/btrfs-progs 4.7.3-1
+core/bzip2 1.0.6-5 (base)
+extra/chromium 53.0.2785.143-1
+local/chromium-pepper-flash 1:23.0.0.162-1
+extra/clang 3.8.1-1
+community/clementine 1.3.1-3
+local/codecs64 20071007-1
+core/coreutils 8.25-2 (base)
+community/cowpatty 4.6-7
+core/cryptsetup 1.7.2-1 (base)
+extra/ctags 5.8-5
+extra/cups-pdf 2.6.1-2
+core/device-mapper 2.02.166-1 (base)
+local/dfmt 0.4.5-1 (dlang)
+core/dhcpcd 6.11.3-1 (base)
+core/dialog 1:1.3_20160828-1
+core/diffutils 3.5-1 (base)
+community/dmd 2.071.2-1 (dlang dlang-dmd)
+community/dosbox 0.74-7
+core/dosfstools 4.0-3
+local/dotnet-cli 1.0.0_preview2_003131-1
+community/dub 1.0.0-1
+core/e2fsprogs 1.43.3-1 (base)
+local/eagle 7.6.0-1
+extra/eclipse-cpp 4.6.1-1
+core/efibootmgr 13-1
+community/evtest 1.33-2
+core/fakeroot 1.21-2 (base-devel)
+core/file 5.28-1 (base base-devel)
+extra/file-roller 3.20.3-1 (gnome-extra)
+core/filesystem 2015.09-1 (base)
+core/findutils 4.6.0-2 (base base-devel)
+community/fish 2.3.1-1
+core/flex 2.6.1-1 (base-devel)
+local/fontconfig-infinality 2.11.95-1 (infinality-bundle)
+local/freetype2-infinality 2.6.3-2 (infinality-bundle)
+core/gawk 4.1.4-1 (base base-devel)
+core/gcc-go 6.2.1-1
+community/geda-gaf 1.8.2-2
+core/gettext 0.19.8.1-2 (base base-devel)
+extra/gimp 2.8.18-1
+extra/git 2.10.0-1
+extra/gksu 2.0.2-5
+core/glibc 2.24-2 (base)
+local/gnome-breeze-git 102.49a5cd6-1
+extra/gptfdisk 1.0.1-2
+core/grep 2.25-2 (base base-devel)
+core/groff 1.22.3-7 (base-devel)
+core/grub 1:2.02.beta3-3
+extra/gst-libav 1.8.3-1
+extra/gstreamer0.10-bad-plugins 0.10.23-18 (gstreamer0.10-plugins)
+extra/gstreamer0.10-base-plugins 0.10.36-3 (gstreamer0.10-plugins)
+extra/gstreamer0.10-ffmpeg 0.10.13-2 (gstreamer0.10-plugins)
+extra/gstreamer0.10-good-plugins 0.10.31-11 (gstreamer0.10-plugins)
+extra/gstreamer0.10-ugly-plugins 0.10.19-16 (gstreamer0.10-plugins)
+extra/gtkspell 2.0.16-3
+extra/gvim 8.0.0013-1
+core/gzip 1.8-2 (base base-devel)
+core/hdparm 9.48-1
+community/hexchat 2.12.2-1
+core/inetutils 1.9.4-4 (base)
+extra/inkscape 0.91-19
+core/iproute2 4.7.0-1 (base)
+core/iputils 20160308.0db72a4-1 (base)
+core/iw 4.7-1
+local/jdk 8u102-1
+core/jfsutils 1.1.15-4 (base)
+extra/k3b 1:2.0.3a-6
+extra/kalgebra 16.08.1-1 (kde-applications kdeedu)
+extra/kde-applications-meta 16.08-1
+extra/kde-l10n-it 16.08.1-2
+community/kicad 4.0.4-1
+community/kicad-library 4.0.4-1
+extra/krita 3.0.1.1-1
+extra/ktorrent 5.0.1-2
+community/kvirc 4.2.0-9
+core/less 481-2 (base)
+multilib/lib32-libphobos 2.071.2-2 (dlang dlang-dmd)
+multilib/lib32-libphobos-devel 2.071.2-2 (dlang dlang-dmd)
+multilib/lib32-ncurses 6.0-2
+community/libappindicator-gtk3 12.10.0-11
+extra/libmp3splt 0.9.2-1
+community/libphobos 2.071.2-1 (dlang dlang-dmd)
+community/libphobos-devel 2.071.2-1 (dlang dlang-dmd)
+extra/libreoffice-fresh 5.2.2-1
+core/libtool 2.4.6-6 (base-devel)
+core/licenses 20140629-1 (base)
+core/linux 4.7.6-1 (base)
+core/linux-headers 4.7.6-1
+community/lmms 1.1.3-4
+core/logrotate 3.10.0-1 (base)
+community/lshw B.02.18-1
+core/lvm2 2.02.166-1 (base)
+extra/lynx 2.8.8-4
+core/m4 1.4.17-2 (base-devel)
+local/maia-icon-theme 23235fa-1
+local/maia-wallpaper 23235fa-1
+core/make 4.2.1-1 (base-devel)
+core/man-db 2.7.5-4 (base)
+core/man-pages 4.08-1 (base)
+local/masterpdfeditor-qt5 3.7.10-2
+community/mc 4.8.18-1
+core/mdadm 3.4-1 (base)
+local/megasync 2.9.8.0-2
+extra/mesa-demos 8.3.0-2
+local/metasploit-git 1:4.12.32.39768.e139a1e-1
+community/mime-editor 0.6-5
+extra/mp3splt 2.6.2-1
+core/nano 2.7.0-1 (base)
+local/ncurses5-compat-libs 6.0-4
+community/neovim 0.1.5-1
+core/net-tools 1.60.20160710git-1
+core/netctl 1.12-2 (base)
+community/ngspice 26-3
+extra/nmap 7.30-1
+extra/ntfs-3g 2016.2.22-1
+extra/octave 4.0.3-1
+core/openssh 7.3p1-2
+local/package-query 1.8-2
+core/pacman 5.0.1-4 (base base-devel)
+core/patch 2.7.5-1 (base-devel)
+core/pciutils 3.5.1-1 (base)
+core/pcmciautils 018-7 (base)
+core/perl 5.24.0-2 (base)
+extra/phonon-qt5-vlc 0.9.0-1
+core/pkg-config 0.29.1-2 (base-devel)
+extra/pkgfile 15-1
+extra/plasma-meta 5.8-1
+local/plasma5-themes-maia 23235fa-1
+core/procps-ng 3.3.12-1 (base)
+core/psmisc 22.21-3 (base)
+extra/putty 0.67-1
+community/pyrit 0.4.0-3
+community/python-neovim 0.1.10-1
+extra/python-pip 8.1.2-1
+community/python2-neovim 0.1.10-1
+extra/python2-pip 8.1.2-1
+extra/qemu 2.7.0-2
+extra/qjackctl 0.4.2-1
+extra/qsynth 0.4.1-1
+extra/qt5-3d 5.7.0-3 (qt qt5)
+extra/qt5-canvas3d 5.7.0-1 (qt qt5)
+extra/qt5-connectivity 5.7.0-2 (qt qt5)
+extra/qt5-doc 5.7.0-1 (qt qt5)
+local/qt5-enginio 5.6.1-1 (qt qt5)
+extra/qt5-examples 5.7.0-2 (qt qt5)
+extra/qt5-imageformats 5.7.0-1 (qt qt5)
+local/qt5-qtstyleplugins 5.0.0-1
+extra/qt5-serialport 5.7.0-1 (qt qt5)
+extra/qt5-wayland 5.7.0-3 (qt qt5)
+extra/qt5-webengine 5.7.0-5 (qt qt5)
+extra/qt5-websockets 5.7.0-1 (qt qt5)
+extra/qtcreator 4.1.0-3
+community/qtemu 1.0.5-11
+community/reaver 1.4-2
+core/reiserfsprogs 3.6.25-1 (base)
+extra/rsync 3.1.2-1
+extra/ruby 2.3.1-1
+extra/ruby-docs 2.3.1-1
+community/rxvt-unicode 9.22-2
+core/s-nail 14.8.10-1 (base)
+community/screenfetch 3.7.0-1
+local/sddm-maia-theme 23235fa-1
+core/sed 4.2.2-4 (base base-devel)
+core/shadow 4.2.1-3 (base)
+local/skype 4.3.0.37-7
+community/snapd 2.15.2-1
+community/soundfont-fluid 2-2
+local/sublime-text 2.0.2-4
+core/sudo 1.8.18-1 (base-devel)
+core/sysfsutils 2.1.0-9 (base)
+core/systemd-sysvcompat 231-4 (base)
+core/tar 1.29-1 (base)
+local/teamviewer 11.0.57095-4
+local/telegram-cli-git r1128.6547c0b-1
+extra/testdisk 7.0-3
+core/texinfo 6.3-1 (base base-devel)
+extra/texlive-bibtexextra 2016.41800-1 (texlive-most)
+extra/texlive-core 2016.41843-1 (texlive-most)
+extra/texlive-fontsextra 2016.41439-2 (texlive-most)
+extra/texlive-formatsextra 2016.41438-2 (texlive-most)
+extra/texlive-games 2016.39318-2 (texlive-most)
+extra/texlive-genericextra 2016.41413-2 (texlive-most)
+extra/texlive-htmlxml 2016.41440-2 (texlive-most)
+extra/texlive-humanities 2016.41380-2 (texlive-most)
+extra/texlive-latexextra 2016.41473-2 (texlive-most)
+extra/texlive-music 2016.41389-2 (texlive-most)
+extra/texlive-pictures 2016.41299-2 (texlive-most)
+extra/texlive-plainextra 2016.41437-2 (texlive-most)
+extra/texlive-pstricks 2016.41321-2 (texlive-most)
+extra/texlive-publishers 2016.41474-2 (texlive-most)
+extra/texlive-science 2016.41327-2 (texlive-most)
+community/texmaker 4.5-3
+extra/time 1.7-8
+community/tmux 2.3-1
+community/torsocks 2.1.0-1
+core/traceroute 2.1.0-1
+extra/tree 1.7.0-1
+local/trillian 2.0.0.7-2
+local/ttf-amiri 0.108-2
+local/ttf-ancient-fonts 2.59-2
+extra/ttf-bitstream-vera 1.10-10
+extra/ttf-dejavu 2.35-1
+extra/ttf-freefont 20120503-4
+community/ttf-inconsolata 20151221.480630d-1
+community/ttf-liberation 2.00.1-6
+extra/ttf-linux-libertine 5.3.0-3
+local/ttf-monaco 6.1-3
+local/ttf-ms-fonts 2.0-10
+local/ttf-oxygen-ibx 1:5.4.2-1 (infinality-bundle-fonts-extra)
+community/ttf-ubuntu-font-family 0.83-1
+extra/unrar 1:5.4.5-1
+core/usbutils 008-1 (base)
+core/util-linux 2.28.2-1 (base base-devel)
+core/vi 1:070224-2 (base)
+community/virtualbox 5.1.6-1
+community/virtualbox-guest-iso 5.1.6-1
+community/virtualbox-host-modules-arch 5.1.6-1
+extra/watchdog 5.15-1
+extra/wget 1.18-1
+core/which 2.21-2 (base base-devel)
+multilib/wine 1.9.20-1
+community/winetricks 20161005-1
+community/wireshark-qt 2.2.0-2
+community/wmctrl 1.07-4
+core/wpa_supplicant 1:2.6-1
+local/wps-office 10.1.0.5672_a21-1
+local/wps-office-extension-italian-dictionary 20131121-2 (wps-office-extensions)
+extra/xclip 0.13-1
+extra/xf86-input-evdev 2.10.4-1 (xorg-drivers xorg)
+extra/xf86-input-joystick 1.6.2-6 (xorg-drivers xorg)
+extra/xf86-input-keyboard 1.8.1-2 (xorg-drivers xorg)
+extra/xf86-input-libinput 0.20.0-1 (xorg-drivers xorg)
+extra/xf86-input-mouse 1.9.1-2 (xorg-drivers xorg)
+extra/xf86-input-synaptics 1.8.99.1-1 (xorg-drivers xorg)
+extra/xf86-input-vmmouse 13.1.0-2 (xorg-drivers xorg)
+extra/xf86-input-void 1.4.1-2 (xorg-drivers xorg)
+extra/xf86-video-amdgpu 1.1.2-1 (xorg-drivers xorg)
+extra/xf86-video-ark 0.7.5-7 (xorg-drivers xorg)
+extra/xf86-video-ati 1:7.7.1-1 (xorg-drivers xorg)
+extra/xf86-video-dummy 0.3.7-5 (xorg-drivers xorg)
+extra/xf86-video-fbdev 0.4.4-5 (xorg-drivers xorg)
+extra/xf86-video-glint 1.2.8-7 (xorg-drivers xorg)
+extra/xf86-video-i128 1.3.6-7 (xorg-drivers xorg)
+extra/xf86-video-intel 1:2.99.917+711+gbd33d0a-1 (xorg-drivers xorg)
+extra/xf86-video-mach64 6.9.5-2 (xorg-drivers xorg)
+extra/xf86-video-neomagic 1.2.9-2 (xorg-drivers xorg)
+extra/xf86-video-nouveau 1.0.13-1 (xorg-drivers xorg)
+extra/xf86-video-nv 2.1.20-7 (xorg-drivers xorg)
+extra/xf86-video-openchrome 0.5.0-1 (xorg-drivers xorg)
+extra/xf86-video-r128 6.10.1-1 (xorg-drivers xorg)
+extra/xf86-video-savage 2.3.8-2 (xorg-drivers xorg)
+extra/xf86-video-siliconmotion 1.7.8-2 (xorg-drivers xorg)
+extra/xf86-video-sis 0.10.8-2 (xorg-drivers xorg)
+extra/xf86-video-tdfx 1.4.5-7 (xorg-drivers xorg)
+extra/xf86-video-trident 1.3.7-2 (xorg-drivers xorg)
+extra/xf86-video-vesa 2.3.4-2 (xorg-drivers xorg)
+extra/xf86-video-vmware 13.1.0-3 (xorg-drivers xorg)
+extra/xf86-video-voodoo 1.2.5-7 (xorg-drivers xorg)
+core/xfsprogs 4.7.0-1 (base)
+extra/xorg-bdftopcf 1.0.5-1 (xorg xorg-apps)
+extra/xorg-docs 1.7.1-1 (xorg)
+extra/xorg-font-util 1.3.1-1 (xorg-fonts xorg)
+extra/xorg-fonts-100dpi 1.0.3-2 (xorg)
+extra/xorg-fonts-75dpi 1.0.3-2 (xorg)
+extra/xorg-fonts-encodings 1.0.4-4 (xorg-fonts xorg)
+extra/xorg-iceauth 1.0.7-1 (xorg-apps xorg)
+extra/xorg-luit 1.1.1-2 (xorg xorg-apps)
+extra/xorg-mkfontdir 1.0.7-2 (xorg xorg-apps)
+extra/xorg-mkfontscale 1.1.2-1 (xorg-apps xorg)
+extra/xorg-server 1.18.4-1 (xorg)
+extra/xorg-server-common 1.18.4-1 (xorg)
+extra/xorg-server-devel 1.18.4-1 (xorg)
+extra/xorg-server-xdmx 1.18.4-1 (xorg)
+extra/xorg-server-xephyr 1.18.4-1 (xorg)
+extra/xorg-server-xnest 1.18.4-1 (xorg)
+extra/xorg-server-xvfb 1.18.4-1 (xorg)
+extra/xorg-server-xwayland 1.18.4-1 (xorg)
+extra/xorg-sessreg 1.1.0-1 (xorg-apps xorg)
+extra/xorg-setxkbmap 1.3.1-1 (xorg-apps xorg)
+extra/xorg-smproxy 1.0.6-1 (xorg-apps xorg)
+extra/xorg-x11perf 1.6.0-1 (xorg-apps xorg)
+extra/xorg-xauth 1.0.9-1 (xorg-apps xorg)
+extra/xorg-xbacklight 1.2.1-1 (xorg-apps xorg)
+extra/xorg-xcmsdb 1.0.5-1 (xorg-apps xorg)
+extra/xorg-xcursorgen 1.0.6-1 (xorg-apps xorg)
+extra/xorg-xdpyinfo 1.3.2-1 (xorg-apps xorg)
+extra/xorg-xdriinfo 1.0.5-1 (xorg-apps xorg)
+extra/xorg-xev 1.2.2-1 (xorg-apps xorg)
+extra/xorg-xgamma 1.0.6-1 (xorg-apps xorg)
+extra/xorg-xhost 1.0.7-1 (xorg-apps xorg)
+extra/xorg-xinput 1.6.2-1 (xorg-apps xorg)
+extra/xorg-xkbcomp 1.3.1-1 (xorg-apps xorg)
+extra/xorg-xkbevd 1.1.4-1 (xorg-apps xorg)
+extra/xorg-xkbutils 1.0.4-2 (xorg-apps xorg)
+extra/xorg-xkill 1.0.4-1 (xorg-apps xorg)
+extra/xorg-xlsatoms 1.1.2-1 (xorg-apps xorg)
+extra/xorg-xlsclients 1.1.3-1 (xorg-apps xorg)
+extra/xorg-xmodmap 1.0.9-1 (xorg-apps xorg)
+extra/xorg-xpr 1.0.4-2 (xorg-apps xorg)
+extra/xorg-xprop 1.2.2-1 (xorg-apps xorg)
+extra/xorg-xrandr 1.5.0-1 (xorg-apps xorg)
+extra/xorg-xrdb 1.1.0-2 (xorg-apps xorg)
+extra/xorg-xrefresh 1.0.5-1 (xorg-apps xorg)
+extra/xorg-xset 1.2.3-1 (xorg-apps xorg)
+extra/xorg-xsetroot 1.1.1-2 (xorg-apps xorg)
+extra/xorg-xvinfo 1.1.3-1 (xorg-apps xorg)
+extra/xorg-xwd 1.0.6-1 (xorg-apps xorg)
+extra/xorg-xwininfo 1.1.3-1 (xorg-apps xorg)
+extra/xorg-xwud 1.0.4-2 (xorg-apps xorg)
+local/xsdm-git 1.0.0.r0.gd666ee3-1
+extra/yajl 2.1.0-1
+local/yaourt 1.8.1-1
+local/ycm-generator-git r122.4d92151-1
+extra/zip 3.0-7
