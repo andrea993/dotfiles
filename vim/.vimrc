@@ -4,7 +4,6 @@ set shell=/bin/sh "Use a compatible shell
 set clipboard=unnamedplus "system clipboard
 syntax on
 
-
 "###VUNDLE START 
 "
 set nocompatible              " be iMproved, required
@@ -95,7 +94,7 @@ let g:ycm_confirm_extra_conf = 0
 let g:ycm_python_binary_path = '/usr/bin/python3'
 let g:ycm_server_python_interpreter = '/usr/bin/python3'
 let g:ycm_path_to_python_interpreter = '/usr/bin/python3'
-let g:ycm_min_num_of_chars_for_completion = 3
+let g:ycm_min_num_of_chars_for_completion = 2
 let g:ycm_auto_trigger = 1
 let g:ycm_seed_identifiers_with_syntax=1
 
