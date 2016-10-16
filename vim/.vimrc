@@ -72,6 +72,10 @@ set autowrite
 set shortmess=a
 set cmdheight=2
 set mouse=a
+	if &term =~ '^screen'
+		 " tmux knows the extended mouse mode
+		 set ttymouse=xterm2
+	endif
 colorscheme brogrammer 
 autocmd FileType text setlocal textwidth=78
 autocmd BufEnter * :syntax sync fromstart
