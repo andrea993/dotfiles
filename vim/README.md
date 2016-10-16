@@ -20,9 +20,9 @@ At the end you need to restart vim to finish installation.
 This steps are to install all languages available completions, if you want to install only some language completion you need to read the `YouCompleteMe` documentation on its `GitHub`page.
 
 *Make sure:
-	*you are using python3.
-	*you have `mono` package installed for `.net` completion.
-	*you have the `clang` package installed.
+ *you are using python3.
+ *you have `mono` package installed for `.net` completion.
+ *you have the `clang` package installed.
 
 
 Go in the directory `~/.vim/bundle/YouCompleteMe_fix-vim-eval-returning-py2-str` and run `./install.py --all`.
