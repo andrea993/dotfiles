@@ -30,14 +30,48 @@
 #
 # For more information, please refer to <http://unlicense.org/>
 
+#
+# Customized by: Stefano Belli (github.com/StefanoBelli)
+# Based on my own clang and GCC configuration
+# Should work on mostly availible GNU/Linux x86_64 distribution 
+#
+
 import os
 import ycm_core
 
+#For example: 'c' or 'c++'
+__CONFIG_LANGUAGE__ = 'c++'
+
+#Languages standard (-std=STANDARD)
+__CONFIG_LANGUAGE_STANDARD_CXX__ = '-std=c++14'
+__CONFIG_LANGUAGE_STANDARD_C__ = '-std=c11'
+
+#GCC and Clang version
+__CONFIG_GCC_VERSION__ = "6.2.1"
+__CONFIG_CLANG_VERSION__ = "3.8.1"
+
+#Toolchain name
+#on modern x86_64 GNU/Linux operating system
+#this is usually good
+__TOOLCHAIN_NAME__ = "x86_64-pc-linux-gnu" 
+
 flags = [
-    '-x',
-    'c++',
+        '-Wall',
+        '-W',
+        '-Wextra',
+        '-x{}'.format(__CONFIG_LANGUAGE__),
+        '-I/usr/local/include',
+        '-I/usr/bin/../lib/clang/{}/include'.format(__CONFIG_CLANG_VERSION__),
+        '-I/usr/include'
 ]
 
+if __CONFIG_LANGUAGE__ == 'c++':
+    flags.append(__CONFIG_LANGUAGE_STANDARD_CXX__)
+    flags.append('-I/usr/lib/gcc/{}/{}/../../../../include/c++/{}'.format(__TOOLCHAIN_NAME__,__CONFIG_GCC_VERSION__,__CONFIG_GCC_VERSION__))
+    flags.append('-I/usr/lib/gcc/{}/{}/../../../../include/c++/{}/{}'.format(__TOOLCHAIN_NAME__,__CONFIG_GCC_VERSION__, __CONFIG_GCC_VERSION__,__TOOLCHAIN_NAME__))
+    flags.append('-I/usr/lib/gcc/{}/{}/../../../../include/c++/{}/backward'.format(__TOOLCHAIN_NAME__, __CONFIG_GCC_VERSION__,__CONFIG_GCC_VERSION__))
+elif __CONFIG_LANGUAGE__ == 'c':
+    flags.append(__CONFIG_LANGUAGE_STANDARD_C__)
 
 # Set this to the absolute path to the folder (NOT the file!) containing the
 # compile_commands.json file to use that instead of 'flags'. See here for
@@ -51,12 +85,38 @@ flags = [
 # 'flags' list of compilation flags. Notice that YCM itself uses that approach.
 compilation_database_folder = ''
 
+## 
+SOURCE_EXTENSIONS = [
+        '.c',
+        '.cpp',
+        '.cxx',
+        '.cc',
+        '.C',
+        '.m',
+        '.mm'
+]
+
+HEADER_EXTENSIONS = [
+        '.h',
+        '.hpp',
+        '.hxx',
+        '.H',
+        '.hh'
+]
+
+PATH_FLAGS = [
+        '-isystem',
+        '-I',
+        '-iquote',
+        '--sysroot='
+]
+##
+
 if os.path.exists( compilation_database_folder ):
   database = ycm_core.CompilationDatabase( compilation_database_folder )
 else:
   database = None
 
-SOURCE_EXTENSIONS = [ '.C', '.cpp', '.cxx', '.cc', '.c', '.m', '.mm' ]
 
 def DirectoryOfThisScript():
   return os.path.dirname( os.path.abspath( __file__ ) )
@@ -67,7 +127,7 @@ def MakeRelativePathsInFlagsAbsolute( flags, working_directory ):
     return list( flags )
   new_flags = []
   make_next_absolute = False
-  path_flags = [ '-isystem', '-I', '-iquote', '--sysroot=' ]
+  path_flags = PATH_FLAGS
   for flag in flags:
     new_flag = flag
 
@@ -93,7 +153,7 @@ def MakeRelativePathsInFlagsAbsolute( flags, working_directory ):
 
 def IsHeaderFile( filename ):
   extension = os.path.splitext( filename )[ 1 ]
-  return extension in [ '.H', '.h', '.hxx', '.hpp', '.hh' ]
+  return extension in HEADER_EXTENSIONS
 
 
 def GetCompilationInfoForFile( filename ):
