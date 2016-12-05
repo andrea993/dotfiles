@@ -59,9 +59,9 @@ URxvt*font: xft:bitstream vera sans mono:size=10:antialiasing=true, xft:DejaVu S
 
 URxvt*color0:  #000000 // black
 URxvt*color1:  #94D4AC // 
-URxvt*color2:  #00AA00 // green
+URxvt*color2:  #DCB000 // tilde iniziale e evidenzia dir
 URxvt*color3:  #AAAA00 // yellow
-URxvt*color4:  #268B52 // blue
+URxvt*color4:  #55AA01 // testo dir, parte sotto archey
 URxvt*color5:  #96EBB5 // seconda&
 URxvt*color6:  #00E864 // cyan
 URxvt*color7:  #AAAAAA // white
@@ -69,9 +69,9 @@ URxvt*color8:  #555555 // black (now and below: bright)
 URxvt*color9:  #14B624 // errore
 URxvt*color10: #16CA58 // valore RAM
 URxvt*color11: #00A43C // yellow
-URxvt*color12: #4CEC87 // parte sopra
-URxvt*color13: #7AC395 // magenta
-URxvt*color14: #00FFFF // cyan
+URxvt*color12: #00FF91 // parte sopra
+URxvt*color13: #7AC395 // nomi dei file, prima &
+URxvt*color14: #00FFFF // ciano
 URxvt*color15: #FFFFFF // white
 
 !URxvt*color0:  #000000

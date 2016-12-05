@@ -29,10 +29,13 @@ bindsym $mod+d exec dmenu_run
 #chromium
 bindsym $mod+c exec chromium
 #nautilus
+#screenshot
 #bindsym $mod+n exec nautilus
 #ranger
 bindsym $mod+m exec i3-sensible-terminal -e ranger
-bindsym Print exec import -windows root ~/Images/Screenshots/screen$(date +%F_%R:%S).jpg
+#screenshot
+bindsym Print exec scrot ~/Images/screenshot/%Y-%m-%d-%T-screenshot.png
+bindsym $mod+Print exec scrot -s ~/Images/screenshot/%Y-%m-%d-%T-screenshot.png
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
@@ -150,8 +153,8 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
-		  
-		  
+		  #i3bar_command  /usr/bin/i3bar-icon
+		  font pango:DejaVu Sans Mono, Icons 8
 		  colors {
 				#active_workspace #5FC076 #5FC076 #5FC076
 				focused_workspace #5FC076 #5FC076 #222222
@@ -159,18 +162,35 @@ bar {
 			}
 }
 
+set $Locker i3lock-fancy && sleep 1
 
+set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id $Locker, mode "default"
+    bindsym e exec --no-startup-id i3-msg exit, mode "default"
+    bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
+    bindsym h exec --no-startup-id $Locker && systemctl hibernate, mode "default"
+    bindsym r exec --no-startup-id systemctl reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"  
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+bindsym $mod+Pause mode "$mode_system"
 
 # class                 border  backgr. text    indicator
 #client.focused          #1E9139 #00B536 #ffffff #00D440
-client.focused          #5FC076 #5FC076 #ffffff #5FC076
+client.focused          #5FC076 #5FC076 #222222 #5FC076
 client.focused_inactive #333333 #5f676a #ffffff #484e50
 client.unfocused        #333333 #222222 #888888 #292d2e
 client.urgent           #2f343a #900000 #ffffff #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000
 
+
 # AUTORUN
 exec --no-startup-id xcompmgr -cfF -t-5 -l-5 -r5 -o.5 -D6
-exec i3-sensible-terminal  
+#exec i3-sensible-terminal  
 exec --no-startup-id nm-applet
 
