@@ -33,4 +33,4 @@ fi
 
 xrdb ~/.Xresources
 sh ~/.wallpaper.sh &
-exec i3 -V > ~/i3log-$(date + '%F-%k.%M.%S') 2>&1
+exec i3 -V > ~/.i3/i3log-$(date + '%F-%k.%M.%S') 2>&1

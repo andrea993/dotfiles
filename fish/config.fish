@@ -7,6 +7,7 @@ set AR arm-linux-androideabi-ar
 
 alias tmux "tmux -2"
 alias vundle-update "env SHELL=(which sh) vim +BundleInstall! +BundleClean +qall"
+alias sudob "sudo fish -c (history | head -n1)"
 
 function pythonversion 
 	sudo ln -sf "/usr/bin/python$argv" "/usr/bin/python"
@@ -25,3 +26,9 @@ function tra
 	mv $arg ~/.local/share/Trash/files
 end
 
+# start X at login
+if status --is-login
+    if test -z "$DISPLAY" -a $XDG_VTNR -eq 1
+        exec startx -- -keeptty
+    end
+end 
