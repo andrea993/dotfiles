@@ -7,7 +7,7 @@ set AR arm-linux-androideabi-ar
 
 alias tmux "tmux -2"
 alias vundle-update "env SHELL=(which sh) vim +BundleInstall! +BundleClean +qall"
-alias sudob "sudo fish -c (history | head -n1)"
+alias sudob "sudo fish -c (history -n 1)"
 
 function pythonversion 
 	sudo ln -sf "/usr/bin/python$argv" "/usr/bin/python"
