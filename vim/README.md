@@ -1,9 +1,9 @@
-#VIM CONFIGURATION
+# VIM CONFIGURATION
 Copy the file `.vimrc` in your home
 ```
 cp .vimrc $HOME
 ```
-##PLUGIN INSTALL
+## PLUGIN INSTALL
 To install Plugins you need `NeoBundle`. You can Install it by
 ```
 mkdir ~/.vim/bundle
@@ -15,7 +15,7 @@ Then start vim and write:
 ```
 At the end you need to restart vim to finish installation.
 
-###YOUCOMPLETEME CONFIGURATION
+### YOUCOMPLETEME CONFIGURATION
 
 This steps are to install all languages available completions, if you want to install only some language completion you need to read the `YouCompleteMe` documentation on its `GitHub`page.
 
@@ -28,7 +28,7 @@ Go in the directory `~/.vim/bundle/YouCompleteMe_fix-vim-eval-returning-py2-str`
 
 Restart vim, now you should use the completion.
 
-####ENABLE CLANG COMPLETION
+#### ENABLE CLANG COMPLETION
 Copy the file `.ycm_extra_conf.py` in your home
 ```
 cp .ycm_extra_conf.py $HOME
