@@ -2,7 +2,12 @@ set clipboard=unnamedplus "system clipboard
 syntax on
 
 if has('unix')
-    set shell=/bin/sh "Use a compatible shell 
+	set shell=/bin/sh "Use a compatible shell 
+endif
+
+if (has('win32') || has('win64'))
+	set guifont=Consolas:h10.5
+	let g:python3_host_prog = 'C:\Users\andre\AppData\Local\Programs\Python\Python37\python.exe'
 endif
 
 "###START NEOBUNDLE
@@ -30,10 +35,14 @@ endif
 	NeoBundle 'vim-airline/vim-airline'
 	NeoBundle 'vim-airline/vim-airline-themes'
 	NeoBundle 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+	NeoBundle 'Shougo/neco-syntax'
  " Refer to |:NeoBundle-examples|.
  " Note: You don't set neobundle setting in .gvimrc!
 
  call neobundle#end()
+
+" deoplete
+let g:deoplete#enable_at_startup = 1
 
  " Required:
  filetype plugin indent on
@@ -92,6 +101,7 @@ nnoremap . :
 nnoremap <F2> :set invpaste paste?<CR>
 	set pastetoggle=<F2>
 	set showmode
+nnoremap <F5> :make<CR>
 
 
 "Various mapping
